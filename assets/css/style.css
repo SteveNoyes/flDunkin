@@ -6,8 +6,6 @@
   border: 1px solid red;
 } */
 
-
-
 .edibleGrid {
   text-decoration: none;
   color: black;
@@ -31,8 +29,8 @@
               Global
 =========================================*/
 
-body {
-  overflow-x: hidden;
+html, body {
+  overflow-x: hidden!important;
 }
 
 .grow { transition: all .4s ease-in-out; }
